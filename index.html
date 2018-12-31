@@ -5,27 +5,93 @@ layout: landing
 <section id="banner">
   <div class="inner">
     <h2>{{ site.title }}</h2>
-    <p>{{ site.description | markdownify }}</p>
+    <p>STABLE CAFÉ, San Francisco</p>
+	<p>February 2, 2019</p>
   </div>
-  <a href="#intro" class="more scrolly">Details</a>
+  <a href="#details" class="more scrolly">Details</a>
 </section>
 
-<section id="details" class="wrapper style1 special">
-  {% include sections/details.html %}
+<section id="details" class="wrapper style2 special">
+	<div class="inner">
+	  <header class="major">
+	    <h2>Join us to celebrate our wedding!</h2>
+	    <p>📅<br>February 2, 2019 <br> <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=N2J0MzdqcGozbDRzNDlkMnZnMzdkYjM0OTMgcHkucmljYXVAbQ&tmsrc=py.ricau%40gmail.com">Add to Google Calendar</a></p>
+		
+		<p>📍<br>STABLE CAFÉ<br>
+		<a target="_blank" href="https://goo.gl/maps/oYmM2GD8h8S2">2128 Folsom, SF</a></p>
+		
+		<p>
+			⏳<br>
+		5:00 PM &mdash; Venue Opens 👋🏻<br>
+		5:30 PM &mdash; Ceremony 💍<br>
+		6:00 PM &mdash; Cocktail Hour 🍸<br>
+		7:00 PM &mdash; Dinner 🌮 &amp; Dancing 💃🏼<br>
+		10:00 PM &mdash; Venue Closes 👋🏻
+		</p>
+		
+		<p>
+			📸<br>
+			Instagram: <a target="_blank" href="https://www.instagram.com/explore/tags/jupyus">#jupyus</a><br>
+			Google Photo: <a target="_blank" href="https://photos.app.goo.gl/9PsvDr55WdPjYcEb6">Add to this Shared Album</a>
+		</p>
+		
+		<p>📩<br><a href="#rsvp">RSVP</a></p>
+	  </header>
+	</div>
 </section>
 
-<section id="couple" class="wrapper alt style2">
-{% include sections/couple.html %}
+<section id="faq" class="wrapper alt style2">
+	 <section class="spotlight">
+	    <div class="image">
+	      <img src="images/party.jpg" alt="" />
+	    </div>
+	    <div class="content">
+	      <h2>🎀 Dress code</h2>
+	      <p>Unless it rains, the ceremony will take place in the garden patio. Dress like it's February in San Francisco!</p>
+			<p>Other than that, feel free to come as you are or wear the one suit you wear at all weddings.</p>
+	    </div>
+	 </section>
+	 <section class="spotlight">
+ 	    <div class="content">
+ 	      <h2>🎁 Registry</h2>
+ 	      <p>No registry this time!</p>
+		  <p>If you really want to spoil us, you'll have to be patient: we'll have a registry for our wedding in France in October.</p>
+ 	    </div>
+	    <div class="image">
+	      <img src="images/water.jpg" alt="" />
+	    </div>
+	 </section>
+	 <section class="spotlight">
+ 	    <div class="content">
+ 	      <h2>👩‍❤️‍💋‍👨 How we met</h2>
+ 	      <p>We met 9 years ago at a costume party. Ju was beautifully dressed as Barbie Volleyball and Py... well we still don't know. Py's pick up line involved listing the ingredients of a secret recipe Ju had made (basically rice crispies treats). That wasn't good enough, so after Ju disappeared suddenly that night, it took Py another week to get her phone number.</p>
+			 <p>We lived 3 years in Paris before Py moved to San Francisco to improve his Yoga skills. After 18 months of Google Hangout disconnecting, it was time for Ju to come to SF!</p>
+			 <p>Today, we live together in Lone Mountain, but not so lonely with our new baby!</p>
+ 	    </div>
+	    <div class="image">
+	      <img src="images/howwemet.jpg" alt="" />
+	    </div>
+	 </section>
 </section>
 
-<!--
-<section id="rsvp" class="wrapper style3 special" style="background-color: #fffafa">
-  {% include sections/rsvp.html %}
+<section id="rsvp" class="wrapper style4 special">
+	<div class="inner">
+	  <header>
+	    <h2>📩 RSVP</h2>
+		<form method="POST" action="http://formspree.io/py.ricau@gmail.com">
+		  <input type="text" name="name" placeholder="Your name" />
+		  <select name="count" style="margin-top: 4px" >
+			<option disabled selected value>Guest count</option>
+			<option value="0">Can't make it</option>
+		    <option value="1">1</option>
+		    <option value="2">2</option>
+		    <option value="3">3</option>
+		    <option value="4">4</option>
+		  </select>
+		  <input type="text" name="_gotcha" style="display:none"/>
+		  <br>
+		  <button type="submit">RSVP</button>
+		</form>
+	  </header>
+	</div>
 </section>
--->
-
-<!--
-<section id="registry" class="wrapper style3 special">
-  {% include sections/honeyfund.html %}
-</section>
--->

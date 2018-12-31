@@ -1,17 +1,13 @@
 # Site settings
-title: "Tina + Mark"
+title: "Ju 💍 Py"
 description: |
-    San Ramon, California
+    STABLE CAFÉ, San Francisco
 
-    November 11, 2018
-owner: Mark Cerqueira
-first_published: 2017
-email: mark@mark.gg
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.tinaandmark.com" # the base hostname & protocol for your site
-
-social:
-  github: https://github.com/markcerqueira/wedding-site
+    February 2, 2019
+owner: Pierre-Yves Ricau
+first_published: 2018
+baseurl: ""
+url: "jupy.us"
 
 # Build settings
 markdown: kramdown
